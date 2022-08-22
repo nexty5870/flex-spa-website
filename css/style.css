@@ -123,6 +123,12 @@ em{
 
 }
 
+.offer-elem:hover img {
+  filter: blur(2px) grayscale(0.5);
+  cursor: pointer;
+  z-index: 2;
+}
+
 .vp{
   height: 100vh;
   display: flex;
